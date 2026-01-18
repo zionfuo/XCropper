@@ -2,7 +2,7 @@
 <html lang="zh-Hans">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=1200, initial-scale=1" />
     <title>X Cropper</title>
     <style>
       :root {
@@ -528,37 +528,6 @@
         border: 1px dashed var(--line-soft);
         border-radius: 12px;
         background: #fafafa;
-      }
-
-      @media (max-width: 1200px) {
-        .page {
-          padding: 16px 100px 20px;
-          gap: 16px;
-        }
-
-        .workspace {
-          grid-template-columns: minmax(220px, 300px) minmax(0, 1fr) minmax(200px, 300px);
-          gap: 14px;
-        }
-      }
-
-      @media (max-width: 960px) {
-        .workspace {
-          grid-template-columns: minmax(200px, 1fr) minmax(0, 1.2fr) minmax(180px, 1fr);
-          gap: 12px;
-        }
-
-        .page {
-          padding: 14px 100px 18px;
-        }
-
-        .title {
-          font-size: 20px;
-        }
-
-        .output-grid {
-          grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        }
       }
 
     </style>
